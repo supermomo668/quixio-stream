@@ -214,14 +214,14 @@ topics:
       retentionInMinutes: 120
       retentionInBytes: 1024
   - name: chat-messages
-    persisted: true
+    persisted: false
     configuration:
       partitions: 1
       ReplicationFactor: 1
       retentionInMinutes: 120
       retentionInBytes: 1024
   - name: chat-with-sentiment
-    persisted: true
+    persisted: false
     configuration:
       partitions: 1
       ReplicationFactor: 1
