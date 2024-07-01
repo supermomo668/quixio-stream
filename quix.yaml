@@ -203,34 +203,34 @@ topics:
     persisted: false
     configuration:
       partitions: 1
-      replicationFactor: 2
+      ReplicationFactor: 1
       retentionInMinutes: 120
       retentionInBytes: 1024
   - name: drafts_sentiment
     persisted: false
     configuration:
       partitions: 1
-      replicationFactor: 2
+      ReplicationFactor: 1
       retentionInMinutes: 120
       retentionInBytes: 1024
   - name: chat-messages
     persisted: true
     configuration:
       partitions: 1
-      replicationFactor: 2
+      ReplicationFactor: 1
       retentionInMinutes: 120
       retentionInBytes: 1024
   - name: chat-with-sentiment
     persisted: true
     configuration:
       partitions: 1
-      replicationFactor: 2
+      ReplicationFactor: 1
       retentionInMinutes: 120
       retentionInBytes: 1024
   - name: twitch-messages
     persisted: false
     configuration:
       partitions: 1
-      replicationFactor: 2
+      ReplicationFactor: 1
       retentionInMinutes: 60
       retentionInBytes: 1024
